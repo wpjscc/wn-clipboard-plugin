@@ -1,0 +1,16 @@
+{
+    "name": "wpjscc/clipboard",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wpjscc\\Clipboard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wpjscc",
+            "email": "wpjscc@gmail.com"
+        }
+    ],
+    "require": {}
+}
