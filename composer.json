@@ -1,5 +1,5 @@
 {
-    "name": "wpjscc/clipboard",
+    "name": "wpjscc/wn-clipboard-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
