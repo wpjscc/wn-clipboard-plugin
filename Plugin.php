@@ -28,7 +28,7 @@ class Plugin extends PluginBase
     public function register(): void
     {
         \Event::listen('backend.page.beforeDisplay', function (\Backend\Classes\Controller $backendController, $action, $params) {
-           $backendController->addJs(plugins_path('wpjscc/clipboard/assets/js/copy-to-clipboard.js'));
+           $backendController->addJs('plugins/wpjscc/clipboard/assets/js/copy-to-clipboard.js');
         });
     }
 
